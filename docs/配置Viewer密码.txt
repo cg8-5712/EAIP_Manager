@@ -1,0 +1,17 @@
+"""
+配置 Distribution Password 的步骤
+"""
+
+# 1. 打开 EAIP_Viewer 项目
+cd F:\bian\pyproject\EAIP_Viewer
+
+# 2. 编辑文件：src/core/hybrid_security.py
+# 找到第 29 行
+
+# 3. 修改为你的打包密码
+_DISTRIBUTION_PASSWORD = "Aviation2025!@ServerPassword#2507"  # 与打包时一致
+
+# 4. 保存文件
+
+# 5. 测试
+python examples/security_demo.py
